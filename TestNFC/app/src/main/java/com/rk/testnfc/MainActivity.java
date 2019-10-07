@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.*;
 
 public class MainActivity extends AppCompatActivity {
     //    NfcAdapter mNfcAdapter;
