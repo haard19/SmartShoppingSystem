@@ -1,5 +1,4 @@
 package com.rk.testnfc;
-
 import android.app.Activity;
 import android.nfc.NfcAdapter;
 
@@ -7,12 +6,12 @@ import android.nfc.NfcAdapter;
  * Created by RK on 03-03-2018.
  */
 
-public class NFCManager {
+public class NFCManager{
     private Activity activity;
     private NfcAdapter nfcAdpt;
 
-    public NFCManager(Activity activity){
-        this.activity = activity;
+    public NFCManager(Activity act){
+        this.activity = act;
     }
 
     public int verifyNFC(){
