@@ -22,7 +22,8 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    //    NfcAdapter mNfcAdapter;
+    
+    
     NFCManager nfcMger;
     private TextView t1;
     private TextView desc;
