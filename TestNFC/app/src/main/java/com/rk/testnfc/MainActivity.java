@@ -21,6 +21,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+
 public class MainActivity extends AppCompatActivity {
     //    NfcAdapter mNfcAdapter;
     NFCManager nfcMger;
@@ -194,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void viewMyList(View view)
-    {
+    {  //view list
         back.setVisibility(View.VISIBLE);
         myBag.setVisibility(View.INVISIBLE);
         cart.setVisibility(View.INVISIBLE);
