@@ -272,7 +272,7 @@ public class MainActivity extends AppCompatActivity {
             finish();
         }
     }*/
-/*
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -363,5 +363,5 @@ public class MainActivity extends AppCompatActivity {
         typeInfoString += "SectorCount \t= " + sectorCount + "\n";
 
         textViewTagInfo.setText(typeInfoString);
-    }*/
+    }
 }
