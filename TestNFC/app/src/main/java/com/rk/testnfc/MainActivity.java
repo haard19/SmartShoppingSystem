@@ -149,6 +149,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // Overrides newIntent function to set text
+
+
     @Override
     public void onNewIntent(Intent intent) {
         int j;
@@ -165,9 +168,11 @@ public class MainActivity extends AppCompatActivity {
         price.setText(cost.get(j).toString());
     }
 
+    // Converts string binary to hex format for easy recognition
+
     private String ByteArrayToHexString(byte [] inarray) {
         int i, j, in;
-        String [] hex = {"0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"};
+        String [] hex = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
         out= "";
         for(j = 0 ; j < inarray.length ; ++j)
         {
@@ -221,6 +226,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    // Code to change different pages after each action performed
 
     public void backMethod(View view){
         back.setVisibility(View.INVISIBLE);
